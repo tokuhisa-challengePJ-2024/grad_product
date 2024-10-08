@@ -1,0 +1,99 @@
+/* style.css */
+
+/* ベースのフォントと背景 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa; /* 明るい背景色 */
+    color: #343a40; /* 文字色 */
+}
+
+/* ヘッダー */
+header {
+    background-color: #2a9d90; /* Jungle Green */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* シャドウを追加 */
+}
+
+/* ナビゲーションバー */
+.navbar {
+    background-color: #2a9d90; /* Jungle Green */
+    border-radius: 0; /* 角を丸くしない */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* ナビゲーションリンクの文字色 */
+    margin-right: 20px; /* リンクの間隔 */
+    transition: color 0.3s ease; /* ホバーエフェクトのスムーズさ */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffba0a; /* ホバー時の色 */
+}
+
+/* ボタン */
+.btn-custom {
+    background-color: #ffba0a; /* Selective Yellow */
+    color: #274754; /* Blue Dianne */
+    border: none;
+    border-radius: 5px; /* 角を丸くする */
+    transition: background-color 0.3s ease; /* ホバーエフェクトのスムーズさ */
+}
+
+.btn-custom:hover {
+    background-color: #f4a462; /* Sandy Brown */
+    color: white;
+}
+
+/* フォーム */
+.form-control {
+    border-radius: 5px; /* 角を丸くする */
+    border: 1px solid #e8c468; /* Rob Roy */
+}
+
+/* 投稿カード */
+.card {
+    margin: 20px 0; /* 上下のマージン */
+    border: none; /* ボーダーをなくす */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* シャドウを追加 */
+}
+
+.card-header {
+    background-color: #2a9d90; /* Jungle Green */
+    color: white;
+    border-top-left-radius: 10px; /* 角を丸くする */
+    border-top-right-radius: 10px; /* 角を丸くする */
+}
+
+/* 投稿内容 */
+.card-body {
+    background-color: white; /* 投稿内容の背景 */
+    padding: 15px;
+}
+
+/* フッター */
+footer {
+    background-color: #274754; /* Blue Dianne */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* タイムラインのカード */
+.timeline-card {
+    background: #ffffff; /* 背景 */
+    padding: 20px;
+    border-radius: 8px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* シャドウ */
+    margin: 15px 0; /* マージン */
+    transition: transform 0.3s; /* スムーズなトランジション */
+}
+
+.timeline-card:hover {
+    transform: scale(1.02); /* ホバー時に少し大きくなる */
+}
